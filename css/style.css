@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFFAFB;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+.sello1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sello2{
+    display: flex;
+    justify-content: center;
+}
+
+/*.navBar {
+    width: 100%;
+
+}*/
+
+.barra1 ul{
+    margin-left: 60px;
+    margin-top: -55px; /*pude poner la barra a esta altura junto a la firma del artista con margin top, pero no sé si esta propiedad se debe usar con flexbox*/
+    justify-content: start;
+}
+
+.barra2 ul{
+    margin-right: 60px;
+    margin-top: -24px; /*no entiendo por qué tuve que poner un margin-top con un valor diferente al de la barra1*/
+    justify-content: end;
+    
+}
+
+.barra1 ul,.barra2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.barra1 ul li,.barra2 ul li{
+    list-style: none;
+}
+
+.barra1 ul li a,.barra2 ul li a{
+    text-decoration: none;
+    color: #2B2C28;
+}
+
+.barra1 ul li a:hover,.barra2 ul li a:hover{
+    font-weight: bold;
+}    
+
+.firma {
+    text-decoration: none;
+    color: #30323D;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.fotografia {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #5C80BC;
+    font-weight: semi-bold;
+    font-size: 33px;
+    letter-spacing: 13.8px;
+}
+
+
+.curriculum p {
+    color: #2B2C28;
+    font-size: 20px;
+    font-weight: light;
+}
+
+footer {
+    width: 100%;
+    height: 89px;
+}
+
+section p {
+    color: #FFFFFF;
+}
+
+.red {
+    text-align: right;
+}
+
+.paisaje {
+    margin-left: 121px;
+    margin-right: 121px;
+    width: 1198px;
+    height: 753px;
+    position: relative;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.paisaje{
+    width: 1196px;
+    height: 753px;
+}
+
+.circ1, .circ2, .circ3, .circ4{
+    width: 19px;
+    height: 19px;
+    background-color: #FFFAFB;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circ1 {
+    margin: -124px 0 10px 1px;
+}
+
+.circ2 {
+    margin: -124px 0 10px 60px;
+}
+
+.circ3 {
+    margin: -124px 0 10px -60px;
+}
+
+.circ4 {
+    margin: -124px 0 10px 120px;
+}
+
+/*seccion sobreMi*/
+
+/* .curriculum h1{
+    font-weight: bold;
+}*/
+
+.autoretrato {
+    margin-left: 121px;
+    margin-right: 121px;
+    width: 1196px;
+    height: 753px;
+    position: relative;
+}
+
+.aboutMe {
+    margin: -100px 0 0 550px;
+    position: absolute;
+    color: #FFFAFB;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+
+.curriculum {
+    margin: 96px 114px 0 121px;
+    width: 1196;
+    height: 664px;
+    color: #4e4e4f;
+    position: relative;
+    text-align: justify;
+}
